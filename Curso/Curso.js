@@ -38,7 +38,7 @@ class mision {
     }
 
     puntosTotales(){
-        return liberarUnaPrincesa.puntosAObtener() + buscarObjetoMagico.puntosAObtener()
+        return 0
     }
     
 }
