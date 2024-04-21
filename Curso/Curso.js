@@ -17,7 +17,7 @@ quienesSolicitan: function() {
 },
 
 cantidadDePuntos: function(){
-    return this.PuntosDeMision.reduce((puntos, puntosActuales) => puntos + puntosActuales, 0)
+    return this.PuntosDeMision.reduce((acumulador, valorActual) => acumulador + valorActual, 0)
 }
 
 }
